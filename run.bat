@@ -13,4 +13,5 @@ if not exist "%PROJECT%\venv\Scripts\python.exe" (
     exit /b 1
 )
 
+cd /d "%PROJECT%"
 "%PROJECT%\venv\Scripts\python.exe" "%PROJECT%\tts.py" %*
